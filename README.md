@@ -24,7 +24,7 @@ Features
 ----------------
 Installation
 ----------------
-The software runs in a container, so just run `docker pull mdsol/logspout`.
+The software runs in a container, so just run `docker pull porterdarby/logspout-cloudwatch`. This container is updated whenever the `gliderlabs/logspout` image is updated automatically using Docker Hub's automated build system.
 
 ----------------
 Building
@@ -137,6 +137,8 @@ Further Configuration
 Contribution / Development
 ----------------
 This software was created by Benton Roberts _(broberts@mdsol.com)_
+
+This software was updated by Porter Darby _(porter.t.darby@gmail.com)_. The 
 
 By default, the Docker image builds from the Go source on GitHub, not from local disk, as per the instructions for [Logspout custom builds][7].
 
